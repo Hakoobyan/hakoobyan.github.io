@@ -134,6 +134,7 @@ li>a{
     color: #fff;
     background: transparent;
     transform: scale(1);
+    cursor: not-allowed;
 }
 
 button:active{
