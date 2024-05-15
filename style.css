@@ -158,7 +158,7 @@ button:active{
 .language{
     display: flex;
     justify-content: center;
-    margin: 2% 0 0 0;
+    margin: 5% 0 0 0;
 }
 .js,.nodejs,.html5,.css,.jquery{
     margin-right: 5%;
@@ -425,8 +425,6 @@ button:active{
 .arrowcolor{
     filter: brightness(0) saturate(100%) invert(94%) sepia(100%) saturate(0%) hue-rotate(100deg) brightness(104%) contrast(102%);
 }
-
-
 
 
 ::-webkit-scrollbar-track
