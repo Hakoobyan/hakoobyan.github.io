@@ -79,13 +79,14 @@
 
 
 
-@media  (max-width: 767px)  {
+@media (max-width: 767px)  {
 
     .lines {
         display: flex;
     }
 
     nav {
+        height: 70px;
         display: flex;
         justify-content: space-between;
     }
@@ -97,7 +98,7 @@
 	.navbar {
 		position: absolute;
 		top: -700px;
-        	z-index: 1;
+        z-index: 1;
 		left: 0;
 		right: 0;
 		flex-direction: column;
@@ -121,11 +122,7 @@
     #menu-icon {
 		display: block;
 	}
-
-    .menu{
-        margin-left: 70%;
-    }
-
+    
     .mainsection-title{
         font-size: 50%;
     }
@@ -262,3 +259,4 @@
 
     
 }
+
