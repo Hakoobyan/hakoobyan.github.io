@@ -79,7 +79,7 @@
 
 
 
-@media  (max-width: 640px) and (max-width: 767px)  {
+@media  (max-width: 767px)  {
 
     .lines {
         display: flex;
