@@ -1,0 +1,265 @@
+@media (max-width: 1024px) {
+
+    .mainsection-title{
+        font-size: 80%;
+    }
+
+    .mainsection-gradient{
+        width: 160px;
+    }
+    
+    .mainsection-gradient img{
+        width: 100%;
+    }
+
+    .about-me{
+        font-size: 90%;
+        max-width: none;
+        margin: 0 2% 0 2% ;
+    }
+    
+    .buttons{
+        margin: 5% 0 0 0;
+    }
+    
+    li>a{
+        padding-top: 25px;
+        padding-left: 40px;
+    }
+
+    .project-card{
+        width: 100%;
+    }
+
+    .experience-description,
+    .footer-description{
+        max-width: none;
+        margin: 0 2% 0 2%;
+        font-size: 80%;
+    }
+
+
+    .freelancer-icon h1{
+        font-size: 130%;
+    }
+    
+    .experience-title p{
+        margin-top: 1%;
+        font-size: 80%;
+    }
+
+    .freelancer {
+        height: 20px;
+    }
+
+    .footer-icon{
+        margin-left: 5%;
+    }
+    
+    .footer-title h1{
+        font-size: 130%;
+    }
+
+    .contact{
+        height: 25px;
+    }
+
+    .email,
+    .contact-sties{
+        margin: 5% 0 0 5%;
+    }
+
+    .email-icon {
+        height: 20px;
+    }
+
+    .email a {
+        font-size: 90%;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+
+    .lines {
+        display: flex;
+    }
+
+    nav {
+        display: flex;
+        position: relative;
+    }
+
+    .top-btn {
+		display: none;
+	}
+
+	.navbar {
+		position: absolute;
+		top: -700px;
+        z-index: 1;
+		left: 0;
+		right: 0;
+		flex-direction: column;
+		background: #222222;
+		align-items: flex-start;
+		box-shadow: 0px 0px 1px #c3bdb8;
+		transition: all .40s ease;
+	}
+
+	.navbar a {
+        font-size: 70%;
+		display: block;
+		padding: 0.8rem;
+		margin: 0.5rem;
+	}
+
+	.navbar.open {
+		top: 100%;
+	}
+
+    #menu-icon {
+		display: block;
+	}
+
+    .menu{
+        margin-left: 70%;
+    }
+
+    .mainsection-title{
+        font-size: 50%;
+    }
+
+    .mainsection-gradient{
+        width: 130px;
+    }
+    
+    .mainsection-gradient img{
+        width: 100%;
+    }
+
+    .about-me{
+        font-size: 60%;
+        max-width: none;
+        margin: 0;
+    }
+
+    #menu-icon{
+        margin-top: 2%;
+    }
+
+    .about-me p{
+        margin: 2% 2% 0 2%;
+    }
+
+    .btn{
+        padding: 10px 25px;
+    }
+
+    .buttons{
+        margin: 5% 0 0 0;
+    }
+
+    .experience-with h1,
+    .project-title h1,
+    .experience-info h1{
+        font-size: 90%;
+    }
+
+    .js img, .nodejs img, .html5 img, .css img, .jquery img {
+        width: 20px;
+    }
+
+    .ajaxjs img{
+        width: 40px;
+    }
+
+    .project-card{
+        width: auto;
+    }
+    
+    .blog a{
+        width: auto;
+        font-size: 30%;
+    }
+
+    .card-title h1{
+        font-size: 55%;
+    }
+
+    .view-icon img{
+        width: 70%;
+    }
+
+    .template{
+        margin-top: 30px;
+    }
+
+    .freelancer-icon h1 {
+        font-size: 80%;    
+    }
+
+    .experience-description{
+        max-width: none;
+        margin: 0 2% 0 2%;
+        font-size: 60%;
+    }
+
+    .experience-title p{
+        font-size: 70%;
+    }
+
+    .freelancer {
+        height: 15px;
+    }
+
+    .footer-icon{
+        margin-left: 5%;
+    }
+    
+    .footer-title h1{
+        font-size: 80%;
+    }
+
+    .contact{
+        height: 15px;
+    }
+    
+    .footer-description{
+        max-width: none;
+        margin: 0 2% 0 2%;
+        font-size: 60%;
+    }
+
+    .email-icon {
+        height: 15px;
+    }
+
+    .email,
+    .contact-sties{
+        margin: 5% 0 0 5%;
+    }
+
+    .logo img{
+        width: 70%;
+    }
+
+    #myButton{
+        width: 30px;
+        height: 30px;
+        right: 10px;
+    }
+
+    #myButton.show{
+        bottom: 20px;
+    }
+
+    li>a{
+        padding-left: 20px!important;
+    }
+
+    
+}
+
+
