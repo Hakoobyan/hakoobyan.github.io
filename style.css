@@ -133,6 +133,7 @@ li>a{
     border: 1px solid;
     color: #fff;
     background: transparent;
+    transform: scale(1);
 }
 
 button:active{
