@@ -98,7 +98,7 @@
 	.navbar {
 		position: absolute;
 		top: -700px;
-        z-index: 1;
+       		z-index: 1;
 		left: 0;
 		right: 0;
 		flex-direction: column;
@@ -109,14 +109,14 @@
 	}
 
 	.navbar a {
-        font-size: 70%;
+        	font-size: 70%;
 		display: block;
 		padding: 0.8rem;
 		margin: 0.5rem;
 	}
 
 	.navbar.open {
-		top: 9%;
+		top: 8%;
 	}
 
     #menu-icon {
