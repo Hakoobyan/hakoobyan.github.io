@@ -23,8 +23,7 @@
     }
     
     li>a{
-        padding-top: 25px;
-        padding-left: 40px;
+        padding-left: 60px;
     }
 
     .project-card{
@@ -34,7 +33,7 @@
     .experience-description,
     .footer-description{
         max-width: none;
-        margin: 0 2% 0 2%;
+        margin: 0 10% 0 10%;
         font-size: 80%;
     }
 
@@ -53,7 +52,7 @@
     }
 
     .footer-icon{
-        margin-left: 5%;
+        margin-left: 15%;
     }
     
     .footer-title h1{
@@ -88,7 +87,7 @@
 
     nav {
         display: flex;
-        position: relative;
+        justify-content: space-between;
     }
 
     .top-btn {
@@ -116,7 +115,7 @@
 	}
 
 	.navbar.open {
-		top: 100%;
+		top: 9%;
 	}
 
     #menu-icon {
@@ -146,18 +145,15 @@
     }
 
     #menu-icon{
-        margin-top: 2%;
+        margin-top: 1%;
     }
 
     .about-me p{
         margin: 2% 2% 0 2%;
     }
-    
-    .experience-title p{
-   	margin-top: 0;
-   }
 
     .btn{
+        font-size: 110%;
         padding: 10px 25px;
     }
 
@@ -189,7 +185,7 @@
     }
 
     .card-title h1{
-        font-size: 55%;
+        font-size: 60%;
     }
 
     .view-icon img{
@@ -206,11 +202,12 @@
 
     .experience-description{
         max-width: none;
-        margin: 0 2% 0 2%;
+        margin: 0 10% 0 10%;
         font-size: 60%;
     }
 
     .experience-title p{
+        margin-top: 0;
         font-size: 70%;
     }
 
@@ -219,7 +216,7 @@
     }
 
     .footer-icon{
-        margin-left: 5%;
+        margin-left: 15%;
     }
     
     .footer-title h1{
@@ -232,7 +229,7 @@
     
     .footer-description{
         max-width: none;
-        margin: 0 2% 0 2%;
+        margin: 0 10% 0 10%;
         font-size: 60%;
     }
 
@@ -265,5 +262,3 @@
 
     
 }
-
-
