@@ -135,13 +135,6 @@ li>a{
     background: transparent;
 }
 
-.btn:nth-child(2):disabled {
-    background-color: grey;
-    cursor: not-allowed;
-    transform: scale(none);
-}
-
-
 button:active{
     transform: scale(0.95);
 }
