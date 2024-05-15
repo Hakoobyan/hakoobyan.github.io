@@ -152,6 +152,10 @@
     .about-me p{
         margin: 2% 2% 0 2%;
     }
+    
+    .experience-title p{
+   	marign-top: 0;
+   }
 
     .btn{
         padding: 10px 25px;
