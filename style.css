@@ -192,7 +192,8 @@ button:active {
 .nodejs,
 .html5,
 .css,
-.jquery {
+.jquery,
+.ajaxjs {
     margin-right: 5%;
 }
 
@@ -201,7 +202,8 @@ button:active {
 .html5color,
 .csscolor,
 .jquerycolor,
-.ajaxjscolor {
+.ajaxjscolor,
+.debugcolor {
     filter: grayscale(100%);
     transition: filter 0.3s ease;
 }
@@ -211,7 +213,8 @@ button:active {
 .html5color:hover,
 .csscolor:hover,
 .jquerycolor:hover,
-.ajaxjscolor:hover {
+.ajaxjscolor:hover,
+.debugcolor:hover {
     filter: grayscale(0%);
 }
 
@@ -226,6 +229,10 @@ button:active {
 
 .ajaxjs img {
     width: 70px;
+}
+
+.debug img{
+    width: 45px;
 }
 
 .project {
