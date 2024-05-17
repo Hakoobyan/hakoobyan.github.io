@@ -44,3 +44,14 @@ window.onscroll = function () {
 function goToHomePage() {
     window.location.href = "#main";
 }
+
+document.getElementById('downloadBtn').addEventListener('click', function() {
+    const fileUrl = 'path/Armen Hakobyan.pdf'; 
+    const a = document.createElement('a');
+    a.href = fileUrl;
+    a.download = 'Armen Hakobyan.pdf'; 
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+});
+
