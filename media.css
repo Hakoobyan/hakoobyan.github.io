@@ -1,48 +1,123 @@
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
 
-    .mainsection-title{
+    @keyframes slidein {
+
+        0%,
+        100% {
+            background-position: 20% 0%;
+            background-size: 3600px;
+        }
+
+        50% {
+            background-position: 100% 0%;
+            background-size: 3000px;
+        }
+    }
+
+    .buttons {
+        margin-top: 5%;
+    }
+
+    .about-me {
+        font-size: 100%;
+        max-width: none;
+        margin: 0 2% 0 2%;
+    }
+
+    .about-me p {
+        margin: 2% 2% 0 2%;
+    }
+
+    .project-card {
+        width: 30%;
+    }
+
+
+    .experience-description,
+    .footer-description {
+        max-width: none;
+        margin: 0 10% 0 10%;
         font-size: 80%;
     }
 
-    .mainsection-gradient{
+    .email a {
+        font-size: 95%;
+    }
+
+    .footer-icon {
+        margin-left: 15%;
+    }
+
+    .content-wrapper {
+        backdrop-filter: blur(8px);
+    }
+}
+
+
+@media (max-width: 1024px) {
+
+    @keyframes slidein {
+
+        0%,
+        100% {
+            background-position: 20% 0%;
+            background-size: 3000px;
+        }
+
+        50% {
+            background-position: 100% 0%;
+            background-size: 2600px;
+        }
+    }
+
+
+    .mainsection-title {
+        font-size: 80%;
+    }
+
+    .logo a {
+        font-size: 110%;
+    }
+
+    .mainsection-gradient {
         width: 160px;
     }
-    
-    .mainsection-gradient img{
+
+    .mainsection-gradient img {
         width: 100%;
     }
 
-    .about-me{
+    .about-me {
         font-size: 90%;
         max-width: none;
-        margin: 0 2% 0 2% ;
+        margin: 0 2% 0 2%;
     }
-    
-    .buttons{
+
+    .buttons {
         margin: 5% 0 0 0;
     }
-    
-    li>a{
+
+    li>a {
         padding-left: 60px;
     }
 
-    .project-card{
-        width: 100%;
+    .project-card {
+        width: 35%;
     }
 
     .experience-description,
-    .footer-description{
+    .footer-description {
         max-width: none;
         margin: 0 10% 0 10%;
         font-size: 80%;
     }
 
 
-    .freelancer-icon h1{
+    .freelancer-icon h1 {
         font-size: 130%;
     }
-    
-    .experience-title p{
+
+    .experience-title p {
         margin-top: 1%;
         font-size: 80%;
     }
@@ -51,20 +126,20 @@
         height: 20px;
     }
 
-    .footer-icon{
+    .footer-icon {
         margin-left: 15%;
     }
-    
-    .footer-title h1{
+
+    .footer-title h1 {
         font-size: 130%;
     }
 
-    .contact{
+    .contactimg {
         height: 25px;
     }
 
     .email,
-    .contact-sties{
+    .contact-sties {
         margin: 5% 0 0 5%;
     }
 
@@ -75,11 +150,29 @@
     .email a {
         font-size: 90%;
     }
+
+    .content-wrapper {
+        backdrop-filter: blur(8px);
+    }
 }
 
 
 
-@media (max-width: 767px)  {
+@media (max-width: 767px) {
+
+    @keyframes slidein {
+
+        0%,
+        100% {
+            background-position: 20% 0%;
+            background-size: 2600px;
+        }
+
+        50% {
+            background-position: 100% 0%;
+            background-size: 2000px;
+        }
+    }
 
     .lines {
         display: flex;
@@ -92,118 +185,122 @@
     }
 
     .top-btn {
-		display: none;
-	}
+        display: none;
+    }
 
-	.navbar {
-		position: absolute;
-		top: -700px;
-       		z-index: 1;
-		left: 0;
-		right: 0;
-		flex-direction: column;
-		background: #222222;
-		align-items: flex-start;
-		box-shadow: 0px 0px 1px #c3bdb8;
-		transition: all .40s ease;
-	}
+    .navbar {
+        position: fixed;
+        top: -700px;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        align-items: flex-start;
+        box-shadow: 0px 0px 1px #c3bdb8;
+        transition: all .40s ease;
+    }
 
-	.navbar a {
-        	font-size: 70%;
-		display: block;
-		padding: 0.8rem;
-		margin: 0.5rem;
-	}
+    .navbar a {
+        font-size: 70%;
+        display: block;
+        padding: 0.8rem;
+        margin: 0.5rem;
+    }
 
-	.navbar.open {
-		top: 8%;
-	}
+    .navbar.open {
+        top: 6%;
+    }
 
     #menu-icon {
-		display: block;
-	}
-    
-    .mainsection-title{
+        display: block;
+    }
+
+    .mainsection-title {
         font-size: 50%;
     }
 
-    .mainsection-gradient{
+    .mainsection-gradient {
         width: 130px;
     }
-    
-    .mainsection-gradient img{
+
+    .mainsection-gradient img {
         width: 100%;
     }
 
-    .about-me{
+    .about-me {
         font-size: 60%;
         max-width: none;
         margin: 0;
     }
 
-    #menu-icon{
+    #menu-icon {
         margin-top: 1%;
     }
 
-    .about-me p{
+    .about-me p {
         margin: 2% 2% 0 2%;
     }
 
-    .btn{
+    .btn {
         font-size: 110%;
         padding: 10px 25px;
     }
 
-    .buttons{
+    .buttons {
         margin: 5% 0 0 0;
     }
 
     .experience-with h1,
     .project-title h1,
-    .experience-info h1{
+    .experience-info h1 {
         font-size: 110%;
     }
 
-    .js img, .nodejs img, .html5 img, .css img, .jquery img {
+    .js img,
+    .nodejs img,
+    .html5 img,
+    .css img,
+    .jquery img {
         width: 20px;
     }
 
-    .ajaxjs img{
+    .ajaxjs img {
         width: 40px;
     }
 
-    .project-card{
+    .project-card {
         width: auto;
     }
-    
-    .blog a{
+
+    .blog a {
         width: auto;
         font-size: 30%;
     }
 
-    .card-title h1{
-        font-size: 60%;
+    .card-title h1 {
+        font-size: 55%;
+        font-weight: 500;
     }
 
-    .view-icon img{
+    .view-icon img {
         width: 70%;
     }
 
-    .template{
+    .template {
         margin-top: 30px;
     }
 
     .freelancer-icon h1 {
-        font-size: 80%;    
+        font-size: 80%;
     }
 
-    .experience-description{
+    .experience-description {
         max-width: none;
         margin: 0 10% 0 10%;
         font-size: 60%;
     }
 
-    .experience-title p{
+    .experience-title p {
         margin-top: 0;
         font-size: 70%;
     }
@@ -212,19 +309,19 @@
         height: 15px;
     }
 
-    .footer-icon{
+    .footer-icon {
         margin-left: 15%;
     }
-    
-    .footer-title h1{
+
+    .footer-title h1 {
         font-size: 80%;
     }
 
-    .contact{
+    .contactimg {
         height: 15px;
     }
-    
-    .footer-description{
+
+    .footer-description {
         max-width: none;
         margin: 0 10% 0 10%;
         font-size: 60%;
@@ -235,28 +332,109 @@
     }
 
     .email,
-    .contact-sties{
+    .contact-sties {
         margin: 5% 0 0 5%;
     }
 
-    .logo img{
+    .logo img {
         width: 70%;
     }
 
-    #myButton{
+    #myButton {
         width: 30px;
         height: 30px;
         right: 10px;
     }
 
-    #myButton.show{
+    #myButton.show {
         bottom: 20px;
     }
 
-    li>a{
-        padding-left: 20px!important;
+    li>a {
+        padding-left: 20px !important;
     }
 
-    
+    .content-wrapper {
+        backdrop-filter: blur(8px);
+    }
+
 }
 
+
+@media(max-width: 500px) {
+
+
+    .experience-description {
+        margin: 0 6% 0 6%;
+    }
+
+    .footer-description {
+        margin: 0 6% 0 6%;
+    }
+
+    .footer-icon {
+        margin-left: 10%;
+    }
+
+    .experience-title {
+        margin-top: 5%;
+    }
+
+
+    .content-wrapper {
+        backdrop-filter: blur(8px);
+    }
+
+
+}
+
+
+@media (max-width: 425px) {
+
+    .experience-description {
+        margin: 0 6% 0 6%;
+    }
+
+    .footer-description {
+        margin: 0 6% 0 6%;
+    }
+
+    .footer-icon {
+        margin-left: 10%;
+    }
+
+    .experience-title {
+        margin-top: 5%;
+    }
+
+
+    .content-wrapper {
+        backdrop-filter: blur(8px);
+    }
+
+
+}
+
+@media (max-width: 375px) {
+    .experience-description {
+        margin: 0 6% 0 6%;
+    }
+
+    .footer-description {
+        margin: 0 6% 0 6%;
+    }
+
+    .footer-icon {
+        margin-left: 10%;
+    }
+
+    .experience-title {
+        margin-top: 5%;
+    }
+
+
+    .content-wrapper {
+        backdrop-filter: blur(8px);
+    }
+
+}
