@@ -86,7 +86,7 @@ a {
 
 }
 
-li>a {
+.navbar li {
     padding-top: 15px;
     padding-left: 70px;
 }
