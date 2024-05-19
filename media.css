@@ -354,7 +354,7 @@
         bottom: 20px;
     }
 
-    li>a {
+    .navbar li {
         padding-left: 20px !important;
     }
 
