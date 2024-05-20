@@ -12,7 +12,7 @@ function goToHomePage() {
 }
 
 document.getElementById('downloadBtn').addEventListener('click', function() {
-    const fileUrl = '../pdf/Armen Hakobyan.pdf';
+    const fileUrl = 'path/pdf/Armen Hakobyan.pdf';
     const a = document.createElement('a');
     a.href = fileUrl;
     a.download = 'Armen Hakobyan.pdf';
