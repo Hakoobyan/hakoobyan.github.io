@@ -97,7 +97,7 @@
         margin: 5% 0 0 0;
     }
 
-    li>a {
+    .navbar li{
         padding-left: 60px;
     }
 
@@ -354,7 +354,7 @@
         bottom: 20px;
     }
 
-    li>a {
+   .navbar li {
         padding-left: 20px !important;
     }
 
