@@ -22,8 +22,4 @@ document.getElementById('downloadBtn').addEventListener('click', function() {
 });
 
 
-$(window).on('load', function() {
-    $('.waviy').fadeOut(500, function() {
-        $('.waviy').fadeIn(500);
-    });
-});
+
