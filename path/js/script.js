@@ -20,3 +20,10 @@ document.getElementById('downloadBtn').addEventListener('click', function() {
     a.click();
     document.body.removeChild(a);
 });
+
+
+$(window).on('load', function() {
+    $('.waviy').fadeOut(500, function() {
+        $('.waviy').fadeIn(500);
+    });
+});
