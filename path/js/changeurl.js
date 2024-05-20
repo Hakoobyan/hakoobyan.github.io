@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() {
-      window.location.href = "../Hakoobyan";
+      window.location.href = "../index.html";
     }, 3000); 
   });
