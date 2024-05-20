@@ -287,7 +287,6 @@ button:active {
 
 .blog a {
     font-weight: 600;
-    width: 50%;
     margin: 1% 0 0 5%;
     display: flex;
     justify-content: flex-start;
