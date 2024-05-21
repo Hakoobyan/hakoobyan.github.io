@@ -21,5 +21,9 @@ document.getElementById('downloadBtn').addEventListener('click', function() {
     document.body.removeChild(a);
 });
 
-
+window.addEventListener('load', function() {
+    if (performance.navigation.type === 1) {
+        window.location.href = "index.html";
+    }
+});
 
