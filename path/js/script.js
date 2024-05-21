@@ -23,7 +23,7 @@ document.getElementById('downloadBtn').addEventListener('click', function() {
 
 window.addEventListener('load', function() {
     if (performance.navigation.type === 1) {
-        window.location.href = "index.html";
+        window.location.href = "./";
     }
 });
 
