@@ -8,7 +8,7 @@ window.onscroll = function () {
 };
 
 function goToHomePage() {
-    window.location.href = "#up";
+    window.location.href = "#main";
 }
 
 document.getElementById('downloadBtn').addEventListener('click', function() {
