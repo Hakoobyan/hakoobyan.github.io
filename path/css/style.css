@@ -481,11 +481,3 @@ button:active {
     scrollbar-color: transparent;
 }
 
-
-#blur-phone {
-    transition: filter 0.3s ease;
-}
-
-.menu-open #blur-phone {
-    filter: blur(3px);
-}
