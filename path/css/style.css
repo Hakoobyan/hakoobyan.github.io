@@ -499,7 +499,6 @@ button:active {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: left;
-
     font-weight: 700;
     transform: translate(-50%, -50%);
 
