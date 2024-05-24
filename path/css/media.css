@@ -1,0 +1,511 @@
+@media (max-width: 1200px) {
+
+    @keyframes slidein {
+
+        0%,
+        100% {
+            background-position: 20% 0%;
+            background-size: 3600px;
+        }
+
+        50% {
+            background-position: 100% 0%;
+            background-size: 3000px;
+        }
+    }
+
+    .buttons {
+        margin-top: 5%;
+    }
+
+    .about-me {
+        font-size: 100%;
+        max-width: none;
+        margin: 0 2% 0 2%;
+    }
+
+    .about-me p {
+        margin: 2% 2% 0 2%;
+    }
+
+    .project-card {
+        width: 30%;
+    }
+
+
+    .experience-description,
+    .footer-description {
+        max-width: none;
+        margin: 0 10% 0 10%;
+        font-size: 80%;
+    }
+
+    .email a {
+        font-size: 95%;
+    }
+
+    .footer-icon {
+        margin-left: 15%;
+    }
+
+    .content-wrapper {
+        backdrop-filter: blur(8px);
+    }
+
+    .project-img {
+        padding: 2px;
+    }
+
+    .experience-info h1,
+    .project-title h1,
+    .experience-with h1 {
+        font-size: 160%;
+    }
+}
+
+
+@media (max-width: 1024px) {
+
+    @keyframes slidein {
+
+        0%,
+        100% {
+            background-position: 20% 0%;
+            background-size: 3000px;
+        }
+
+        50% {
+            background-position: 100% 0%;
+            background-size: 2600px;
+        }
+    }
+
+
+    .mainsection-title {
+        font-size: 80%;
+    }
+
+    .logo a {
+        font-size: 110%;
+    }
+
+    .mainsection-gradient {
+        width: 160px;
+    }
+
+    .mainsection-gradient img {
+        width: 100%;
+    }
+
+    .about-me {
+        font-size: 90%;
+        max-width: none;
+        margin: 0 2% 0 2%;
+    }
+
+    .buttons {
+        margin: 5% 0 0 0;
+    }
+
+    .navbar li {
+        padding-left: 60px;
+    }
+
+    .project-card {
+        width: 35%;
+    }
+
+    .experience-description,
+    .footer-description {
+        max-width: none;
+        margin: 0 10% 0 10%;
+        font-size: 80%;
+    }
+
+
+    .freelancer-icon h1 {
+        font-size: 130%;
+    }
+
+    .experience-title p {
+        margin-top: 1%;
+        font-size: 80%;
+    }
+
+    .freelancer {
+        height: 20px;
+    }
+
+    .footer-icon {
+        margin-left: 15%;
+    }
+
+    .footer-title h1 {
+        font-size: 130%;
+    }
+
+    .contactimg {
+        height: 25px;
+    }
+
+    .email,
+    .contact-sties {
+        margin: 5% 0 0 5%;
+    }
+
+    .email-icon {
+        height: 20px;
+    }
+
+    .email a {
+        font-size: 90%;
+    }
+
+    .content-wrapper {
+        backdrop-filter: blur(8px);
+    }
+
+    .project-img {
+        padding: 2px;
+    }
+
+    .experience-info h1,
+    .project-title h1,
+    .experience-with h1 {
+        font-size: 160%;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+
+    @keyframes slidein {
+
+        0%,
+        100% {
+            background-position: 20% 0%;
+            background-size: 2600px;
+        }
+
+        50% {
+            background-position: 100% 0%;
+            background-size: 2000px;
+        }
+    }
+
+    nav {
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .top-btn {
+        display: none;
+    }
+
+    .navbar a {
+        display: none;
+    }
+
+    .mainsection-title {
+        font-size: 50%;
+    }
+
+    .mainsection-gradient {
+        width: 130px;
+    }
+
+    .mainsection-gradient img {
+        width: 100%;
+    }
+
+    .about-me {
+        font-size: 60%;
+        max-width: none;
+        margin: 0;
+    }
+
+    #menu-icon {
+        margin-top: 1%;
+    }
+
+    .about-me p {
+        margin: 2% 2% 0 2%;
+    }
+
+    .btn {
+        font-size: 110%;
+        padding: 10px 25px;
+    }
+
+    .buttons {
+        margin: 5% 0 0 0;
+    }
+
+    .experience-with h1,
+    .project-title h1,
+    .experience-info h1 {
+        font-size: 110%;
+    }
+
+    .js img,
+    .nodejs img,
+    .html5 img,
+    .css img,
+    .jquery img {
+        width: 20px;
+    }
+
+
+    .debug img {
+        width: 25px;
+    }
+
+    .ajaxjs img {
+        width: 40px;
+    }
+
+    .project-card {
+        width: auto;
+    }
+
+    .blog a {
+        width: auto;
+        font-size: 30%;
+    }
+
+    .card-title h1 {
+        font-size: 65%;
+        font-weight: 500;
+    }
+
+    .view-icon img {
+        height: 7px;
+        width: 100%;
+    }
+
+    .template {
+        margin-top: 30px;
+    }
+
+    .freelancer-icon h1 {
+        font-size: 80%;
+    }
+
+    .experience-description {
+        max-width: none;
+        margin: 0 10% 0 10%;
+        font-size: 60%;
+    }
+
+    .experience-title p {
+        margin-top: 0;
+        font-size: 70%;
+    }
+
+    .freelancer {
+        height: 15px;
+    }
+
+    .footer-icon {
+        margin-left: 15%;
+    }
+
+    .footer-title h1 {
+        font-size: 80%;
+    }
+
+    .contactimg {
+        height: 15px;
+    }
+
+    .footer-description {
+        max-width: none;
+        margin: 0 10% 0 10%;
+        font-size: 60%;
+    }
+
+    .email-icon {
+        height: 15px;
+    }
+
+    .email,
+    .contact-sties {
+        margin: 5% 0 0 5%;
+    }
+
+    .logo img {
+        width: 70%;
+    }
+
+    #myButton {
+        width: 30px;
+        height: 30px;
+        right: 10px;
+    }
+
+    #myButton.show {
+        bottom: 20px;
+    }
+
+    .navbar li {
+        padding-left: 20px !important;
+    }
+
+    .content-wrapper {
+        backdrop-filter: blur(8px);
+    }
+
+
+    .project-img {
+        padding: 2px;
+    }
+
+    .project-img img {
+        border-radius: 14px;
+    }
+
+    .project-card {
+        border-radius: 14px;
+    }
+
+
+    .waviy span {
+        font-size: 30px;
+    }
+}
+
+
+@media(max-width: 500px) {
+
+
+    .experience-description {
+        margin: 0 6% 0 6%;
+    }
+
+    .footer-description {
+        margin: 0 6% 0 6%;
+    }
+
+    .footer-icon {
+        margin-left: 10%;
+    }
+
+    .experience-title {
+        margin-top: 5%;
+    }
+
+
+    .content-wrapper {
+        backdrop-filter: blur(8px);
+    }
+
+    .card-title h1 {
+        font-size: 55%;
+    }
+
+    .project-img {
+        padding: 2px;
+    }
+
+    .project-img img {
+        border-radius: 12px;
+    }
+
+    .project-card {
+        border-radius: 12px;
+    }
+
+
+    .project-img img {
+        border-radius: 10px;
+    }
+
+    .project-card {
+        border-radius: 10px;
+    }
+
+}
+
+
+@media (max-width: 425px) {
+
+    .experience-description {
+        margin: 0 6% 0 6%;
+    }
+
+    .footer-description {
+        margin: 0 6% 0 6%;
+    }
+
+    .footer-icon {
+        margin-left: 10%;
+    }
+
+    .experience-title {
+        margin-top: 5%;
+    }
+
+
+    .content-wrapper {
+        backdrop-filter: blur(8px);
+    }
+
+    .card-title h1 {
+        font-size: 55%;
+    }
+
+    .project-img {
+        padding: 2px;
+    }
+
+    .project-img img {
+        border-radius: 12px;
+    }
+
+    .project-card {
+        border-radius: 12px;
+    }
+
+
+}
+
+@media (max-width: 375px) {
+    .experience-description {
+        margin: 0 6% 0 6%;
+    }
+
+    .footer-description {
+        margin: 0 6% 0 6%;
+    }
+
+    .footer-icon {
+        margin-left: 10%;
+    }
+
+    .experience-title {
+        margin-top: 5%;
+    }
+
+
+    .content-wrapper {
+        backdrop-filter: blur(8px);
+    }
+
+    .project-img {
+        padding: 1px;
+    }
+
+    .project-img img {
+        border-radius: 10px;
+    }
+
+    .project-card {
+        border-radius: 10px;
+    }
+
+    .card-title h1 {
+        font-size: 50%;
+    }
+}

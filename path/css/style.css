@@ -1,0 +1,509 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+ul,
+ol {
+    list-style: none;
+
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    animation: slidein 80s forwards infinite alternate;
+
+}
+
+.content-wrapper {
+    backdrop-filter: blur(12px);
+}
+
+
+@keyframes slidein {
+
+    0%,
+    100% {
+        background-position: 20% 0%;
+        background-size: 4400px;
+    }
+
+    50% {
+        background-position: 100% 0%;
+        background-size: 4000px;
+    }
+}
+
+
+nav {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+
+.logo {
+    padding-top: 10px;
+}
+
+.logo a {
+    font-size: 130%;
+}
+
+#menu-icon {
+    position: relative;
+    color: #fff;
+    font-size: 40px;
+    z-index: 1;
+    cursor: pointer;
+    display: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.menu a {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+    font-weight: 500;
+
+}
+
+.navbar li {
+    padding-top: 15px;
+    padding-left: 70px;
+}
+
+
+.mainsection {
+    padding-bottom: 5%;
+
+}
+
+
+
+.mainsection-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainsection-gradient {
+    margin: 5% 0 1% 0;
+    border-radius: 50%;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(132deg, rgba(255, 134, 96, 1) 0%, rgba(128, 0, 255, 1) 100%);
+}
+
+.mainsection-title {
+    display: flex;
+    justify-content: center;
+}
+
+.mainsection-title>h1 {
+    font-size: 220%;
+    color: white;
+}
+
+
+.gradient-span {
+    background: linear-gradient(132deg, rgba(255, 134, 96, 1) 0%, rgba(128, 0, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-me {
+    margin: 1% 0 0 35%;
+    text-align: center;
+    color: gray;
+    font-size: 110%;
+    max-width: 30%;
+}
+
+.buttons {
+    margin: 10% 0 0 0;
+}
+
+.buttons button {
+    margin: 0 0 0 10px;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    padding: 15px 30px;
+    background-color: #fff;
+    color: black;
+    font-size: 100%;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: transform 0.2s ease;
+}
+
+.btn:nth-child(2) {
+    border: 1px solid;
+    color: #fff;
+    background: transparent;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+
+.experience-with h1 {
+    margin: 5% 0 0 0;
+    font-size: 200%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C5C5C5;
+}
+
+.language {
+    width: 100%;
+    text-align: center;
+}
+
+.language {
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 0 0;
+}
+
+.js,
+.nodejs,
+.html5,
+.css,
+.jquery,
+.ajaxjs {
+    margin-right: 5%;
+}
+
+.jscolor,
+.nodejscolor,
+.html5color,
+.csscolor,
+.jquerycolor,
+.ajaxjscolor,
+.debugcolor {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.jscolor:hover,
+.nodejscolor:hover,
+.html5color:hover,
+.csscolor:hover,
+.jquerycolor:hover,
+.ajaxjscolor:hover,
+.debugcolor:hover {
+    filter: grayscale(0%);
+}
+
+
+.js img,
+.nodejs img,
+.html5 img,
+.css img,
+.jquery img {
+    width: 40px;
+}
+
+.ajaxjs img {
+    width: 70px;
+}
+
+.debug img {
+    width: 45px;
+}
+
+.project {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.project-title h1 {
+    font-size: 200%;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, rgba(255, 134, 96, 1) 0%, rgba(213, 73, 29, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.project-card {
+    margin: 0 5% 0 5%;
+    border-radius: 20px;
+    width: 25%;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 2px 2px 5px #1c1e22, -2px -2px 5px #262a2e;
+    ;
+}
+
+.project-card:hover {
+    transition: 0.3s;
+    background: linear-gradient(to right bottom, #212428, #16181c);
+}
+
+
+.template {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.card-title h1 {
+    color: #fff;
+    font-size: 100%;
+}
+
+.blog {
+    margin-bottom: 5px;
+}
+
+.project-img {
+    padding: 6px;
+}
+
+.project-img img {
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.card-title {
+    margin: 1% 0 0 5%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.blog a {
+    font-weight: 600;
+    width: 50%;
+    margin: 1% 0 0 5%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 60%;
+    text-transform: uppercase;
+    color: #C5C5C5;
+}
+
+.view {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-info h1 {
+    font-size: 200%;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, rgba(91, 173, 255, 1) 0%, rgba(19, 115, 209, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.experience {
+    text-align: center;
+}
+
+.experience-info {
+    margin-top: 5%;
+}
+
+.experience-description {
+    max-width: 50%;
+    margin-left: 25%;
+}
+
+.experience-description p {
+    margin: 5% 0 0 0;
+    color: #8491A0;
+}
+
+.experience-title {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.experience-title p {
+    color: #8491A0;
+}
+
+.experience-title h1 {
+    margin-left: 1%;
+    color: #fff;
+}
+
+
+.freelancer-icon {
+    display: flex;
+    margin-right: 5%;
+    max-width: 80%;
+}
+
+.freelancer {
+    margin: 2% 2% 0 0;
+    width: 100%;
+    height: 30px;
+    filter: brightness(0) saturate(100%) invert(94%) sepia(100%) saturate(0%) hue-rotate(100deg) brightness(104%) contrast(102%);
+}
+
+
+.footer-title h1 {
+    font-size: 150%;
+    color: #fff;
+}
+
+.footer-description {
+    max-width: 50%;
+    margin-left: 25%;
+}
+
+
+.footer-description p {
+    text-align: center;
+    color: #8491A0;
+}
+
+.footer-icon {
+    margin: 3% 0 2% 20%;
+    display: flex;
+    max-width: 80%;
+}
+
+
+.footer-title {
+    display: flex;
+}
+
+.contactimg {
+    width: 100%;
+    height: 30px;
+    margin: 2% 2% 0 0;
+    filter: brightness(0) saturate(100%) invert(94%) sepia(100%) saturate(0%) hue-rotate(100deg) brightness(104%) contrast(102%);
+
+}
+
+.email {
+    display: flex;
+    margin-top: 5%;
+}
+
+.email-icon {
+    filter: brightness(0) saturate(100%) invert(83%) sepia(0%) saturate(0%) hue-rotate(287deg) brightness(96%) contrast(92%);
+    width: 85%;
+    height: 25px;
+    margin: -1.5% 5% 0 0;
+}
+
+.email-info {
+    display: flex;
+}
+
+.email a {
+    font-size: 75%;
+    color: #C5C5C5;
+}
+
+.contact-sties {
+    margin-top: 5%;
+}
+
+.all-sites {
+    display: flex;
+}
+
+.instagram a,
+.telegram a,
+.linkedin a,
+.github a {
+    margin-bottom: 50%;
+    color: #fff;
+}
+
+
+.linkedin,
+.telegram,
+.github {
+    margin: 0 0 0 5%;
+}
+
+#myButton {
+    position: fixed;
+    bottom: -50px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: #222222;
+    border-radius: 20%;
+    cursor: pointer;
+    transition: bottom 0.5s ease-in-out;
+}
+
+#myButton.show {
+    bottom: 50px;
+}
+
+#myButton img {
+    width: 20px;
+}
+
+.arrowcolor {
+    filter: brightness(0) saturate(100%) invert(94%) sepia(100%) saturate(0%) hue-rotate(100deg) brightness(104%) contrast(102%);
+}
+
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #373737;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #565656;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #555;
+    scrollbar-color: transparent;
+}
+
+
+.loader {
+    background: linear-gradient(132deg, rgba(255, 134, 96, 1) 0%, rgba(128, 0, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+
+    font-weight: 700;
+    transform: translate(-50%, -50%);
+
+    &:after {
+        content: '_';
+    }
+}
