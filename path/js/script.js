@@ -6,9 +6,21 @@ window.onscroll = function () {
     }
 };
 
+
+
 function goToHomePage() {
-    window.location.href = "#main";
+    const targetElement = document.getElementById("main");
+
+    if (targetElement) {
+        const offsetTop = targetElement.offsetTop;
+        window.scrollTo({
+            top: offsetTop,
+        });
+
+        history.replaceState(null, '', window.location.pathname + window.location.search);
+    }
 }
+
 
 document.getElementById('downloadBtn').addEventListener('click', function () {
     const fileUrl = 'path/pdf/Armen Hakobyan.pdf';
@@ -122,3 +134,30 @@ function randomWordLoop() {
 randomWordLoop();
 
 
+
+document.addEventListener("DOMContentLoaded", () => {
+    const Projects = document.querySelector("Projects");
+    const Experience = document.querySelector("Experience");
+    const Contact = document.querySelector("Contact");
+    const links = document.querySelectorAll("a[href^='#']");
+    
+    links.forEach((link) => {
+        link.addEventListener("click", (e) => {
+            e.preventDefault();
+            const targetId = link.getAttribute("href").substring(1);
+            const targetElement = document.getElementById(targetId);
+            
+            if (targetElement) {
+                const offsetTop = targetElement.offsetTop - (Projects ? Projects.offsetHeight : 0);
+                const offsetTop1 = targetElement.offsetTop - (Experience ? Experience.offsetHeight : 0);
+                const offsetTop2 = targetElement.offsetTop - (Contact ? Contact.offsetHeight : 0);
+                window.scrollTo({
+                    top: offsetTop,
+                    top: offsetTop1,
+                    top: offsetTop2,
+                });
+                history.pushState(null, '', window.location.pathname + window.location.search);
+            }
+        });
+    });
+});

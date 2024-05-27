@@ -16,7 +16,7 @@ body {
     font-family: "Poppins", sans-serif;
     background: url("../img/background.jpg");
     background-repeat: no-repeat;
-    animation: slidein 80s forwards infinite alternate;
+    animation: slidein 75s forwards infinite alternate;
 
 }
 
@@ -56,7 +56,8 @@ nav {
 }
 
 .logo a {
-    font-size: 130%;
+    font-family: "Poetsen One" !important;
+    font-size: 150%;
 }
 
 #menu-icon {
@@ -81,7 +82,7 @@ a {
 
 .menu a {
     font-family: "Plus Jakarta Sans", sans-serif;
-    color: white;
+    color: #fff;
     font-weight: 500;
 
 }
@@ -89,6 +90,26 @@ a {
 .navbar li {
     padding-top: 15px;
     padding-left: 70px;
+}
+
+.navbar a {
+    position: relative;
+    transition: 0.4s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+.navbar li a::before {
+    width: 0;
+    position: absolute;
+    content: "";
+    height: 2px;
+    background: #fff;
+    top: 25px;
+    border-radius: 5px;
+    transition: 0.4s;
 }
 
 
@@ -160,14 +181,18 @@ a {
     transition: transform 0.2s ease;
 }
 
+
+
 .btn:nth-child(2) {
+    box-shadow: 5px 5px 5px #2e2e2e;
     border: 1px solid;
     color: #fff;
     background: transparent;
 }
 
-button:active {
-    transform: scale(0.95);
+
+button:hover{
+    transform: scale(1.05);
 }
 
 
@@ -217,7 +242,14 @@ button:active {
 .jquerycolor:hover,
 .ajaxjscolor:hover,
 .debugcolor:hover {
+    transition: 0.5s ease;
+    transform: scale(1.05);
     filter: grayscale(0%);
+}
+
+.project-card:hover{
+    transition:  0.5s ease;
+    transform: scale(1.05);
 }
 
 
@@ -256,13 +288,14 @@ button:active {
     width: 25%;
     background: linear-gradient(145deg, #1e2024, #23272b);
     box-shadow: 2px 2px 5px #1c1e22, -2px -2px 5px #262a2e;
-    ;
 }
 
 .project-card:hover {
-    transition: 0.3s;
+
     background: linear-gradient(to right bottom, #212428, #16181c);
 }
+
+
 
 
 .template {
@@ -338,6 +371,14 @@ button:active {
 .experience-description p {
     margin: 5% 0 0 0;
     color: #8491A0;
+}
+
+.experience-description p:hover,
+.footer-description p:hover,
+.about-me p:hover,
+.blog a:hover{
+    transition:  0.3s ease;
+    color: #fff;
 }
 
 .experience-title {
@@ -426,6 +467,11 @@ button:active {
     color: #C5C5C5;
 }
 
+.email a:hover{
+    color: #fff;
+    transition: all 0.3s;
+}
+
 .contact-sties {
     margin-top: 5%;
 }
@@ -434,19 +480,56 @@ button:active {
     display: flex;
 }
 
+.instagram,
+.telegram,
+.linkedin,
+.github {
+    box-shadow: 1px 1px 3px #1c1e22, -1px -1px 3px #262a2e;
+    border: 1px solid #222222;
+    border-radius: 6px;
+}
+
 .instagram a,
 .telegram a,
 .linkedin a,
 .github a {
-    margin-bottom: 50%;
-    color: #fff;
+    padding: 5px 10px;
+    color: #ffffffcd;
 }
 
+
+.instagram:hover,
+.telegram:hover,
+.linkedin:hover,
+.github:hover,
+.instagram i:hover,
+.telegram i:hover,
+.linkedin i:hover,
+.github i:hover {
+    color: #fffffffb;
+    background: #1a1a1a;
+    transition: all 0.3s;
+}
 
 .linkedin,
 .telegram,
 .github {
-    margin: 0 0 0 5%;
+    margin: 0 0 0 3%;
+}
+
+.linkedin,
+.telegram,
+.github,
+.instagram {
+    margin-bottom: 5%;
+}
+
+.linkedin:hover,
+.telegram:hover,
+.github:hover,
+.instagram:hover{
+    transition:  0.5s ease;
+    transform: scale(1.10);
 }
 
 #myButton {
@@ -460,6 +543,10 @@ button:active {
     border-radius: 20%;
     cursor: pointer;
     transition: bottom 0.5s ease-in-out;
+}
+
+#myButton:hover {
+    transition: 0.5s ease;
 }
 
 #myButton.show {
@@ -499,7 +586,6 @@ button:active {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: left;
-    font-weight: 700;
     transform: translate(-50%, -50%);
 
     &:after {
