@@ -1,3 +1,17 @@
+'use strict';
+
+(function ($) {
+
+    /*------------------
+        Preloader
+    --------------------*/
+    $(window).on('load', function () {
+        $(".mainloader").fadeOut();
+        $("#preloader").delay(350).fadeOut("slow");
+    });
+
+})(jQuery);
+
 window.onscroll = function () {
     if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
         document.getElementById("myButton").className = "show";
@@ -33,11 +47,11 @@ document.getElementById('downloadBtn').addEventListener('click', function () {
 });
 
 
-window.addEventListener('load', function () {
-    if (performance.navigation.type === 1) {
-        window.location.href = "./";
-    }
-});
+// window.addEventListener('load', function () {
+//     if (performance.navigation.type === 1) {
+//         window.location.href = "./";
+//     }
+// });
 
 var words = [
     'Web Developer',
