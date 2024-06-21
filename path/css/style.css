@@ -158,6 +158,11 @@ a {
     color: gray;
     font-size: 110%;
     max-width: 30%;
+    
+}
+
+.about-me p{
+    transition:  0.3s ease;
 }
 
 .buttons {
@@ -179,6 +184,7 @@ a {
     text-decoration: none;
     border-radius: 20px;
     transition: transform 0.2s ease;
+    transition:  0.5s ease;
 }
 
 
@@ -233,6 +239,7 @@ button:hover{
 .debugcolor {
     filter: grayscale(100%);
     transition: filter 0.3s ease;
+    transition: 0.5s ease;
 }
 
 .jscolor:hover,
@@ -242,15 +249,11 @@ button:hover{
 .jquerycolor:hover,
 .ajaxjscolor:hover,
 .debugcolor:hover {
-    transition: 0.5s ease;
     transform: scale(1.05);
     filter: grayscale(0%);
 }
 
-.project-card:hover{
-    transition:  0.5s ease;
-    transform: scale(1.05);
-}
+
 
 
 .js img,
@@ -288,14 +291,13 @@ button:hover{
     width: 25%;
     background: linear-gradient(145deg, #1e2024, #23272b);
     box-shadow: 2px 2px 5px #1c1e22, -2px -2px 5px #262a2e;
+    transition: transform 0.5s ease;
 }
 
 .project-card:hover {
-
+    transform: scale(1.05);
     background: linear-gradient(to right bottom, #212428, #16181c);
 }
-
-
 
 
 .template {
@@ -339,6 +341,7 @@ button:hover{
     font-size: 60%;
     text-transform: uppercase;
     color: #C5C5C5;
+    transition:  0.3s ease;
 }
 
 .view {
@@ -371,13 +374,13 @@ button:hover{
 .experience-description p {
     margin: 5% 0 0 0;
     color: #8491A0;
+    transition:  0.3s ease;
 }
 
 .experience-description p:hover,
 .footer-description p:hover,
 .about-me p:hover,
 .blog a:hover{
-    transition:  0.3s ease;
     color: #fff;
 }
 
@@ -425,6 +428,7 @@ button:hover{
 .footer-description p {
     text-align: center;
     color: #8491A0;
+    transition:  0.3s ease;
 }
 
 .footer-icon {
@@ -465,11 +469,12 @@ button:hover{
 .email a {
     font-size: 75%;
     color: #C5C5C5;
+    transition: all 0.3s;
 }
 
 .email a:hover{
     color: #fff;
-    transition: all 0.3s;
+    
 }
 
 .contact-sties {
@@ -495,6 +500,7 @@ button:hover{
 .github a {
     padding: 5px 10px;
     color: #ffffffcd;
+    transition: all 0.3s;
 }
 
 
@@ -508,7 +514,7 @@ button:hover{
 .github i:hover {
     color: #fffffffb;
     background: #1a1a1a;
-    transition: all 0.3s;
+    
 }
 
 .linkedin,
@@ -522,13 +528,13 @@ button:hover{
 .github,
 .instagram {
     margin-bottom: 5%;
+    transition:  0.5s ease;
 }
 
 .linkedin:hover,
 .telegram:hover,
 .github:hover,
 .instagram:hover{
-    transition:  0.5s ease;
     transform: scale(1.10);
 }
 
@@ -543,11 +549,9 @@ button:hover{
     border-radius: 20%;
     cursor: pointer;
     transition: bottom 0.5s ease-in-out;
-}
-
-#myButton:hover {
     transition: 0.5s ease;
 }
+
 
 #myButton.show {
     bottom: 50px;
