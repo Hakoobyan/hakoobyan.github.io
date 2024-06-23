@@ -20,6 +20,12 @@ body {
 
 }
 
+.container {
+    width: 100%;
+    max-width: 1597px;
+    margin: 0 auto;
+}
+
 .content-wrapper {
     backdrop-filter: blur(12px);
 }
@@ -114,11 +120,8 @@ a {
 
 
 .mainsection {
-    padding-bottom: 5%;
-
+    padding-bottom: 2%;
 }
-
-
 
 .mainsection-info {
     display: flex;
@@ -127,7 +130,7 @@ a {
 }
 
 .mainsection-gradient {
-    margin: 5% 0 1% 0;
+    margin: 3% 0 1% 0;
     border-radius: 50%;
     width: 220px;
     display: flex;
@@ -153,20 +156,24 @@ a {
 }
 
 .about-me {
-    margin: 1% 0 0 35%;
     text-align: center;
     color: gray;
     font-size: 110%;
-    max-width: 30%;
-    
+    display: flex;
+    justify-content: center;
 }
 
 .about-me p{
+    display: flex;
+    max-width: 45%;
+    flex-wrap: wrap;
     transition:  0.3s ease;
 }
 
 .buttons {
-    margin: 10% 0 0 0;
+    margin: 1% 0 2% 0;
+    display: flex;
+    justify-content: center;
 }
 
 .buttons button {
@@ -203,7 +210,6 @@ button:hover{
 
 
 .experience-with h1 {
-    margin: 5% 0 0 0;
     font-size: 200%;
     text-align: center;
     text-transform: uppercase;
@@ -211,15 +217,14 @@ button:hover{
 }
 
 .language {
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 0 0;
     width: 100%;
     text-align: center;
 }
 
-.language {
-    display: flex;
-    justify-content: center;
-    margin: 5% 0 0 0;
-}
+
 
 .js,
 .nodejs,
@@ -273,7 +278,7 @@ button:hover{
 }
 
 .project {
-    margin-top: 5%;
+    margin-top: 2%;
     text-align: center;
 }
 
@@ -286,9 +291,8 @@ button:hover{
 }
 
 .project-card {
-    margin: 0 5% 0 5%;
     border-radius: 20px;
-    width: 25%;
+    width: 27%;
     background: linear-gradient(145deg, #1e2024, #23272b);
     box-shadow: 2px 2px 5px #1c1e22, -2px -2px 5px #262a2e;
     transition: transform 0.5s ease;
@@ -302,7 +306,8 @@ button:hover{
 
 .template {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 10px 70px;
     margin-top: 50px;
 }
 
@@ -367,12 +372,16 @@ button:hover{
 }
 
 .experience-description {
-    max-width: 50%;
-    margin-left: 25%;
+    margin: 2% 0 0 0;
+    display: flex;
+    justify-content: center;
 }
 
 .experience-description p {
-    margin: 5% 0 0 0;
+    max-width: 55%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     color: #8491A0;
     transition:  0.3s ease;
 }
@@ -404,6 +413,7 @@ button:hover{
     display: flex;
     margin-right: 5%;
     max-width: 80%;
+    align-items: center;
 }
 
 .freelancer {
@@ -420,12 +430,16 @@ button:hover{
 }
 
 .footer-description {
-    max-width: 50%;
-    margin-left: 25%;
+    display: flex;
+    justify-content: center;
 }
 
 
 .footer-description p {
+    display: flex;
+    justify-content: center;
+    max-width: 55%;
+    flex-wrap: wrap;
     text-align: center;
     color: #8491A0;
     transition:  0.3s ease;
@@ -435,6 +449,7 @@ button:hover{
     margin: 3% 0 2% 20%;
     display: flex;
     max-width: 80%;
+    align-items: center;
 }
 
 
@@ -445,26 +460,29 @@ button:hover{
 .contactimg {
     width: 100%;
     height: 30px;
-    margin: 2% 2% 0 0;
+    margin: 0 2% 0 0;
     filter: brightness(0) saturate(100%) invert(94%) sepia(100%) saturate(0%) hue-rotate(100deg) brightness(104%) contrast(102%);
 
 }
 
 .email {
     display: flex;
-    margin-top: 5%;
+    margin: 4% 0 0 0;
+    justify-content: space-evenly;
 }
+
 
 .email-icon {
     filter: brightness(0) saturate(100%) invert(83%) sepia(0%) saturate(0%) hue-rotate(287deg) brightness(96%) contrast(92%);
-    width: 85%;
     height: 25px;
-    margin: -1.5% 5% 0 0;
+    margin: 0 5% 0 0;
 }
 
 .email-info {
     display: flex;
+    align-items: center;
 }
+
 
 .email a {
     font-size: 75%;
@@ -474,23 +492,19 @@ button:hover{
 
 .email a:hover{
     color: #fff;
-    
 }
 
-.contact-sties {
-    margin-top: 5%;
-}
 
 .all-sites {
     display: flex;
+    gap: 10px 15px;
 }
 
 .instagram,
 .telegram,
 .linkedin,
 .github {
-    box-shadow: 1px 1px 3px #1c1e22, -1px -1px 3px #262a2e;
-    border: 1px solid #222222;
+    border: 1px solid #6f6f6f;
     border-radius: 6px;
 }
 
@@ -498,7 +512,7 @@ button:hover{
 .telegram a,
 .linkedin a,
 .github a {
-    padding: 5px 10px;
+    padding: 6px 10px;
     color: #ffffffcd;
     transition: all 0.3s;
 }
@@ -513,7 +527,7 @@ button:hover{
 .linkedin i:hover,
 .github i:hover {
     color: #fffffffb;
-    background: #1a1a1a;
+    border-color: #3f3f3f;
     
 }
 
