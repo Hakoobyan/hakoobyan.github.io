@@ -85,9 +85,6 @@
         }
     }
 
-    .buttons {
-        margin-top: 5%;
-    }
 
     .about-me {
         font-size: 100%;
@@ -95,28 +92,13 @@
         margin: 0 2% 0 2%;
     }
 
-    .about-me p {
-        margin: 2% 2% 0 2%;
-    }
-
-    .project-card {
-        width: 5%;
-    }
-
-
-    .experience-description,
-    .footer-description {
-        max-width: none;
-        margin: 0 10% 0 10%;
-        font-size: 80%;
-    }
 
     .email a {
-        font-size: 95%;
+        font-size: 75%;
     }
 
     .footer-icon {
-        margin-left: 15%;
+        margin-left: 20%;
     }
 
     .content-wrapper {
@@ -152,13 +134,10 @@
         }
     }
 
-    .buttons {
-        margin-top: 5%;
-    }
+
 
     .about-me {
         font-size: 100%;
-        max-width: none;
         margin: 0 2% 0 2%;
     }
 
@@ -166,24 +145,12 @@
         margin: 2% 2% 0 2%;
     }
 
-    .project-card {
-        width: 30%;
-    }
-
-
-    .experience-description,
-    .footer-description {
-        max-width: none;
-        margin: 0 10% 0 10%;
-        font-size: 80%;
-    }
-
     .email a {
-        font-size: 95%;
+        font-size: 75%;
     }
 
     .footer-icon {
-        margin-left: 15%;
+        margin-left: 20%;
     }
 
     .content-wrapper {
@@ -237,28 +204,14 @@
 
     .about-me {
         font-size: 90%;
-        max-width: none;
         margin: 0 2% 0 2%;
     }
 
-    .buttons {
-        margin: 5% 0 0 0;
-    }
 
     .navbar li {
         padding-left: 60px;
     }
 
-    .project-card {
-        width: 35%;
-    }
-
-    .experience-description,
-    .footer-description {
-        max-width: none;
-        margin: 0 10% 0 10%;
-        font-size: 80%;
-    }
 
 
     .freelancer-icon h1 {
@@ -275,7 +228,7 @@
     }
 
     .footer-icon {
-        margin-left: 15%;
+        margin-left: 20%;
     }
 
     .footer-title h1 {
@@ -286,17 +239,13 @@
         height: 25px;
     }
 
-    .email,
-    .contact-sties {
-        margin: 5% 0 0 5%;
-    }
 
     .email-icon {
         height: 20px;
     }
 
     .email a {
-        font-size: 90%;
+        font-size: 75%;
     }
 
     .content-wrapper {
@@ -362,8 +311,11 @@
 
     .about-me {
         font-size: 60%;
-        max-width: none;
         margin: 0;
+    }
+
+    .buttons{
+        font-size: 60%;
     }
 
     #menu-icon {
@@ -371,6 +323,9 @@
     }
 
     .about-me p {
+        display: flex;
+        max-width: 55%;
+        flex-wrap: wrap;
         margin: 2% 2% 0 2%;
     }
 
@@ -379,9 +334,6 @@
         padding: 10px 25px;
     }
 
-    .buttons {
-        margin: 5% 0 0 0;
-    }
 
     .experience-with h1,
     .project-title h1,
@@ -437,7 +389,6 @@
 
     .experience-description {
         max-width: none;
-        margin: 0 10% 0 10%;
         font-size: 60%;
     }
 
@@ -451,7 +402,7 @@
     }
 
     .footer-icon {
-        margin-left: 15%;
+        margin-left: 20%;
     }
 
     .footer-title h1 {
@@ -464,7 +415,6 @@
 
     .footer-description {
         max-width: none;
-        margin: 0 10% 0 10%;
         font-size: 60%;
     }
 
@@ -472,10 +422,7 @@
         height: 15px;
     }
 
-    .email,
-    .contact-sties {
-        margin: 5% 0 0 5%;
-    }
+
 
     .logo img {
         width: 70%;
@@ -488,7 +435,7 @@
     }
 
     #myButton.show {
-        bottom: 20px;
+        bottom: 60px;
     }
 
     .navbar li {
@@ -510,8 +457,8 @@
 
     .project-card {
         position: relative;
-        left: 15%;
-        width: 60%;
+        left: 25%;
+        width: 50%;
         margin-top: 15px;
         border-radius: 14px;
     }
@@ -543,16 +490,13 @@
         }
     }
 
-    .experience-description {
-        margin: 0 6% 0 6%;
-    }
 
-    .footer-description {
-        margin: 0 6% 0 6%;
+    .about-me p{
+        max-width: 65%;
     }
 
     .footer-icon {
-        margin-left: 10%;
+        margin-left: 15%;
     }
 
     .experience-title {
@@ -579,7 +523,7 @@
 
     .project-card {
         position: relative;
-        left: 10%;
+        left: 15%;
         width: 70%;
         border-radius: 12px;
     }
@@ -593,17 +537,18 @@
         border-radius: 10px;
     }
 
-}
+    .experience-description p,
+    .footer-description p{
+        max-width: 75%;
+    }
 
+}
 
 @media (max-width: 425px) {
 
-    .experience-description {
-        margin: 0 6% 0 6%;
-    }
-
-    .footer-description {
-        margin: 0 6% 0 6%;
+    .experience-description p,
+    .footer-description p{
+        max-width: 80%;
     }
 
     .footer-icon {
@@ -635,16 +580,25 @@
         border-radius: 12px;
     }
 
+    .email a {
+        font-size: 55%;
+    }
+
+
+    .instagram a,
+.telegram a,
+.linkedin a,
+.github a {
+    padding: 7px 10px;
+}
 
 }
 
 @media (max-width: 375px) {
-    .experience-description {
-        margin: 0 6% 0 6%;
-    }
-
-    .footer-description {
-        margin: 0 6% 0 6%;
+    .experience-description p,
+    .footer-description p{
+        margin: 4% 0 0 0;
+        max-width: 85%;
     }
 
     .footer-icon {
