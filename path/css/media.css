@@ -1,4 +1,4 @@
-@media (max-width: 7800px){
+@media (max-width: 7800px) {
 
     @keyframes slidein {
 
@@ -7,7 +7,7 @@
             background-position: 20% 0%;
             background-size: 10000px;
         }
-    
+
         50% {
             background-position: 100% 0%;
             background-size: 10000px;
@@ -16,8 +16,8 @@
 
 }
 
-@media (max-width: 3000px){
-    
+@media (max-width: 3000px) {
+
     @keyframes slidein {
 
         0%,
@@ -25,15 +25,15 @@
             background-position: 20% 0%;
             background-size: 7000px;
         }
-    
+
         50% {
             background-position: 100% 0%;
             background-size: 5000px;
         }
     }
-}   
+}
 
-@media (max-width: 2200px){
+@media (max-width: 2200px) {
     @keyframes slidein {
 
         0%,
@@ -41,7 +41,7 @@
             background-position: 20% 0%;
             background-size: 4000px;
         }
-    
+
         50% {
             background-position: 100% 0%;
             background-size: 3600px;
@@ -59,7 +59,7 @@
             background-position: 20% 0%;
             background-size: 4000px;
         }
-    
+
         50% {
             background-position: 100% 0%;
             background-size: 3600px;
@@ -70,7 +70,7 @@
 
 
 
-@media (max-width: 1500px){
+@media (max-width: 1500px) {
     @keyframes slidein {
 
         0%,
@@ -113,6 +113,19 @@
     .project-title h1,
     .experience-with h1 {
         font-size: 160%;
+    }
+
+    
+    .js img,
+    .nodejs img,
+    .html5 img,
+    .css img,
+    .jquery img {
+        width: 35px;
+    }
+
+    .ajaxjs img {
+        width: 55px;
     }
 
 }
@@ -166,6 +179,19 @@
     .experience-with h1 {
         font-size: 160%;
     }
+
+    
+    .js img,
+    .nodejs img,
+    .html5 img,
+    .css img,
+    .jquery img {
+        width: 30px;
+    }
+
+    .ajaxjs img {
+        width: 45px;
+    }
 }
 
 
@@ -183,6 +209,8 @@
             background-position: 100% 0%;
             background-size: 2600px;
         }
+
+
     }
 
 
@@ -261,6 +289,19 @@
     .experience-with h1 {
         font-size: 160%;
     }
+
+    .js img,
+    .nodejs img,
+    .html5 img,
+    .css img,
+    .jquery img {
+        width: 30px;
+    }
+
+    .ajaxjs img {
+        width: 45px;
+    }
+
 }
 
 
@@ -314,7 +355,8 @@
         margin: 0;
     }
 
-    .buttons{
+    .buttons {
+        padding: 20px 0;
         font-size: 60%;
     }
 
@@ -347,11 +389,6 @@
     .css img,
     .jquery img {
         width: 20px;
-    }
-
-
-    .debug img {
-        width: 25px;
     }
 
     .ajaxjs img {
@@ -446,6 +483,10 @@
         backdrop-filter: blur(8px);
     }
 
+    .project {
+        padding: 35px 0 0 0;
+    }
+
 
     .project-img {
         padding: 2px;
@@ -463,14 +504,19 @@
         border-radius: 14px;
     }
 
-
-    .waviy span {
-        font-size: 30px;
+    .instagram a,
+    .telegram a,
+    .linkedin a,
+    .github a {
+        padding: 3px 8px;
     }
 
-    .instagram a, .telegram a, .linkedin a, .github a{
-        padding: 5px 8px;
-    } 
+    .language-names {
+        font-size: 7px;
+        padding: 3px 7px;
+        box-shadow: 1px 1px 1px #fff;
+        bottom: -10px;
+    }
 }
 
 
@@ -491,7 +537,7 @@
     }
 
 
-    .about-me p{
+    .about-me p {
         max-width: 65%;
     }
 
@@ -538,7 +584,7 @@
     }
 
     .experience-description p,
-    .footer-description p{
+    .footer-description p {
         max-width: 75%;
     }
 
@@ -547,7 +593,7 @@
 @media (max-width: 425px) {
 
     .experience-description p,
-    .footer-description p{
+    .footer-description p {
         max-width: 80%;
     }
 
@@ -586,17 +632,19 @@
 
 
     .instagram a,
-.telegram a,
-.linkedin a,
-.github a {
-    padding: 7px 10px;
-}
+    .telegram a,
+    .linkedin a,
+    .github a {
+        font-size: 12px;
+        padding: 3px 8px;
+    }
 
 }
 
 @media (max-width: 375px) {
+
     .experience-description p,
-    .footer-description p{
+    .footer-description p {
         margin: 4% 0 0 0;
         max-width: 85%;
     }
