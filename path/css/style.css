@@ -510,6 +510,7 @@ button:hover {
 .github {
     border: 1px solid #6f6f6f;
     border-radius: 6px;
+    transition: all 0.3s;
 }
 
 .instagram a,
@@ -538,7 +539,6 @@ button:hover {
     box-shadow: #d5d5d5 1px 2px 4px;
 }
 
-}
 
 .linkedin,
 .telegram,
