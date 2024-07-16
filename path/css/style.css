@@ -523,17 +523,20 @@ button:hover {
 }
 
 
-.instagram:hover,
-.telegram:hover,
-.linkedin:hover,
-.github:hover,
+
 .instagram i:hover,
 .telegram i:hover,
 .linkedin i:hover,
 .github i:hover {
-    box-shadow: #d5d5d5 1px 2px 4px;
     color: #fffffffb;
     border-color: #d5d5d5;
+
+.instagram:hover,
+.telegram:hover,
+.linkedin:hover,
+.github:hover{
+    box-shadow: #d5d5d5 1px 2px 4px;
+}
 
 }
 
