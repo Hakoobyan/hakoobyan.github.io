@@ -127,7 +127,7 @@
 ## Contact
 
 - &#128172; &nbsp;**[Instagram](https://www.instagram.com/___hakoobyan/)**
-- &#128172; &nbsp;**[Telegram](https://t.me/armhak00)**
+- &#128172; &nbsp;**[Telegram](https://t.me/mr_hakoobyan)**
 - &#128172; &nbsp;**[Github](https://github.com/Hakoobyan)**
 
 <br>
