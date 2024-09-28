@@ -68,19 +68,19 @@
   <tr>
     <td align="center" width="110" height="90"> 
       <a href="#" >
-        <img src="https://brandeps.com/icon-download/L/Less-icon-vector-04.svg" width="36" height="36" alt="Webpack" />
+        <img src="https://brandeps.com/icon-download/L/Less-icon-vector-04.svg" width="36" height="36" alt="Less" />
       </a>
       <br>Less
     </td>
     <td align="center" width="110" height="90"> 
       <a href="#" >
-        <img src="https://brandeps.com/logo-download/B/Bootstrap-logo-vector-01.svg" width="36" height="36" alt="Vite" />
+        <img src="https://brandeps.com/logo-download/B/Bootstrap-logo-vector-01.svg" width="36" height="36" alt="Bootstrap" />
       </a>
       <br>Bootstrap
     </td> 
     <td align="center" width="110" height="90">
       <a href="#">
-        <img src="https://api.jquery.com/wp-content/themes/jquery/images/logo-jquery.png" width="150" height="25" alt="Sass" />
+        <img src="https://api.jquery.com/wp-content/themes/jquery/images/logo-jquery.png" width="150" height="25" alt="Jquery" />
       </a>
       <br>jQuery
     </td>
@@ -99,25 +99,25 @@
     </td>
     <td align="center" width="110" height="90">
       <a href="#" >
-        <img src="https://brandeps.com/icon-download/L/Laravel-icon-vector-04.svg" width="36" height="36" alt="GraphQL" />
+        <img src="https://brandeps.com/icon-download/L/Laravel-icon-vector-04.svg" width="36" height="36" alt="Laravel" />
       </a>
       <br>Laravel
     </td>
     <td align="center" width="110" height="90">
       <a href="#" >
-        <img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="36" height="36" alt="Mongo DB" />
+        <img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="36" height="36" alt="MySQL" />
       </a>
       <br>MySQL
     </td>
      <td align="center" width="110" height="90"> 
       <a href="#debabin-stack" >
-        <img src="https://brandeps.com/icon-download/P/Php-icon-vector-04.svg" width="36" height="36" alt="Firebase" />
+        <img src="https://brandeps.com/icon-download/P/Php-icon-vector-04.svg" width="36" height="36" alt="PHP" />
       </a>
       <br>PHP
     </td>
     <td align="center" width="110" height="90"> 
       <a href="#debabin-stack" >
-        <img src="https://miro.medium.com/v2/resize:fit:1400/1*v3b022s2UAyhVAFLUtzhJg.png" width="70" height="36" alt="Firebase" />
+        <img src="https://miro.medium.com/v2/resize:fit:1400/1*v3b022s2UAyhVAFLUtzhJg.png" width="70" height="36" alt="AJAX" />
       </a>
       <br>AJAX
     </td>
