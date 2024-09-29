@@ -7,7 +7,7 @@
 <br/>
 <div align="center">
 
- 🌱 My portfolio [PORTFOLIO](https://hakoobyan.github.io/Hakoobyan/home/) 
+ 🌱 My portfolio [PORTFOLIO](https://hakoobyan.github.io/Hakoobyan/) 
  
  </div>
 
