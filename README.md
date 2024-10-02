@@ -86,7 +86,7 @@
     </td>
     <td align="center" width="110" height="90">
       <a href="#">
-        <img src="" width="32" height="32" alt="UglifyJS" />
+        <img src="https://cdn.uglifyjs.net/assets/images/jsc-180.webp" width="32" height="32" alt="UglifyJS" />
       </a>
       <br>UglifyJS
     </td>
