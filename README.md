@@ -86,7 +86,7 @@
     </td>
     <td align="center" width="110" height="90">
       <a href="#">
-        <img src="https://cdn.discordapp.com/attachments/819298456099225680/1289576795984629850/jsc-32.webp?ex=66f9537b&is=66f801fb&hm=a423b15737d56035405f0ce3f03f579f1c846ea76699360e5b27d273aa2d5020&" width="32" height="32" alt="UglifyJS" />
+        <img src="https://imgur.com/a/FB5LqTB" width="32" height="32" alt="UglifyJS" />
       </a>
       <br>UglifyJS
     </td>
