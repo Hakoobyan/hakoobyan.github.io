@@ -94,7 +94,7 @@
       <a href="#">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" width="32" height="32" alt="JSON" />
       </a>
-      <br>UglifyJS
+      <br>JSON
     </td>
   </tr> 
 </table>
