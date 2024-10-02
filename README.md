@@ -59,6 +59,12 @@
       </a>
       <br>GitHub
     </td>
+    <td align="center" width="110" height="90">
+      <a href="#">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" width="32" height="32" alt="JSON" />
+      </a>
+      <br>JSON
+    </td>
   </tr> 
 </table>
 
@@ -89,12 +95,6 @@
         <img src="https://cdn.uglifyjs.net/assets/images/jsc-180.webp" width="32" height="32" alt="UglifyJS" />
       </a>
       <br>UglifyJS
-    </td>
-    <td align="center" width="110" height="90">
-      <a href="#">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" width="32" height="32" alt="JSON" />
-      </a>
-      <br>JSON
     </td>
   </tr> 
 </table>
