@@ -86,7 +86,13 @@
     </td>
     <td align="center" width="110" height="90">
       <a href="#">
-        <img src="[https://imgur.com/a/FB5LqTB](https://ibb.co/7X2585C)" width="32" height="32" alt="UglifyJS" />
+        <img src="" width="32" height="32" alt="UglifyJS" />
+      </a>
+      <br>UglifyJS
+    </td>
+    <td align="center" width="110" height="90">
+      <a href="#">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" width="32" height="32" alt="JSON" />
       </a>
       <br>UglifyJS
     </td>
