@@ -133,6 +133,12 @@
       </a>
       <br>AJAX
     </td>
+    <td align="center" width="110" height="90"> 
+      <a href="#debabin-stack" >
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/composer/composer-original.svg" width="70" height="36" alt="AJAX" />
+      </a>
+      <br>Composer
+    </td>
   </tr> 
 </table>
 
